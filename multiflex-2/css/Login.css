@@ -1,0 +1,143 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light background color */
+}
+
+/* Style for the navigation bar */
+#navbar {
+    background-color: rgb(115,162,182); /* Sky blue background */
+    padding: 10px 20px;
+}
+
+/* Remove default list styling */
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Evenly space the links */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style individual list items */
+#navbar ul li {
+    margin: 0;
+}
+
+/* Style for the links */
+#navbar ul li a {
+    text-decoration: none;
+    color: white; /* White text for the links */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block; /* Ensures the entire clickable area is filled */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect */
+#navbar ul li a:hover {
+    background-color: #085675; /* Slightly darker sky blue on hover */
+    border-radius : 5px; /* Rounded corners on hover */
+    color: #ffffff; /* Keep text white */
+}
+
+/* Optional: Style the active or selected link */
+#navbar ul li a.active {
+    background-color: #4682b4; /* Darker blue for the active link */
+    border-radius: 5px;
+}
+
+/* Container for the login form */
+.login-container {
+    background-color: rgb(171, 185, 206);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height : 380px;
+    text-align: center;
+    display : block;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+/* Heading style */
+.login-container h2 {
+    color: #0c6199; /* Sky blue heading */
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label styling */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Input field styling */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus effect on input */
+.form-group input:focus {
+    border-color: #87ceeb; /* Sky blue focus border */
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0c6199;; /* Sky blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #4682b4; /* Darker sky blue */
+}
+
+/* Footer text and link styling */
+.form-footer {
+    margin-top: 20px;
+}
+
+.form-footer p {
+    color: #666;
+    font-size: 14px;
+}
+
+.form-footer a {
+    color: #0c6199;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-footer a:hover {
+    color: #4682b4;
+    text-decoration: underline;
+}
